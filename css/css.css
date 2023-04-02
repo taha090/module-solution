@@ -1,13 +1,8 @@
-@font-face
-{
-	font-family: pointsoft;
-	src: url("Point Soft Semi Bold.otf") ;
-}
 body {
   font-size: 16px;
   color: rgba(34, 33, 33, 0.884);
   background-color:white;
-  font-family: pointsoft;
+  font-family: sans-serif;
 }
 
 #header-nav {
@@ -17,18 +12,8 @@ body {
   min-height: 70px;
 }
 
-.navbar-brand h1 {
-  font-family: pointsoft;
-  color: black;
-  font-size: 1.8em;
-  text-transform: uppercase;
-  font-weight: bold;
-  margin-top: 10px;
-  margin-bottom: 20px;
-  line-height: .75;
-}
-
-.navbar-brand a:hover, .navbar-brand a:focus {
+.navbar-brand a:hover, 
+.navbar-brand a:focus {
   text-decoration: none;
 }
 
@@ -41,13 +26,25 @@ body {
   background:whitesmoke;
 }
 
-.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+.navbar-header button.navbar-toggle, 
+.navbar-header .icon-bar {
   border: 1px solid black;
 }
 
 .navbar-header button.navbar-toggle {
   clear: both;
   margin-top: -30px;
+}
+
+.navbar-brand h1 {
+  font-family: cursive;
+  color: black;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  font-weight: bolder;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  line-height: .75;
 }
 
 #page-title {
@@ -60,6 +57,10 @@ body {
   padding-right: 20px;
 }
 
+h3 {
+  font-weight: bold;
+}
+
 .text-background {
   height: auto;
   padding: 20px 40px 20px 40px;
@@ -67,9 +68,6 @@ body {
   overflow: hidden;
 }
 
-h3 {
-  font-weight: bold;
-}
 .footer-copyright{
   padding: 50px;
 }
